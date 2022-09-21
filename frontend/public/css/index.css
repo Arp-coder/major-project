@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: #eee; */
+}
+.outer_contain{
+    padding: 20px;
+    /* background-color: #eee; */
+}
+.outer_contain h2{
+    margin: 10px;
+}
+.course_contain{
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+}
+.course{
+    height: 80px;
+    min-width: 140px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.course:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.section{
+    border-bottom: 1px solid rgb(164, 157, 157);
+    min-height: 280px;
+    background: #eee;
+    line-height: 2.4;
+}
