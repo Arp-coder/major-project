@@ -3,6 +3,20 @@
     margin: 0;
     /* background-color: #eee; */
 }
+.navbar{
+    max-height: 50px;
+}
+.comp-logo{
+    margin-right: 27px;
+}
+.loc-btn{ 
+    margin-top: 15px;
+    margin-right: 300px;
+}
+
+form{
+    margin-right: 600px;
+}
 .outer_contain{
     padding: 20px;
     /* background-color: #eee; */
